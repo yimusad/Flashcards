@@ -29,7 +29,7 @@
                                             <fragment content="Khartoum">
                                                 <attributes>
                                                     <color key="NSBackgroundColor" red="0.99891513586044312" green="0.99908572435379028" blue="0.99890440702438354" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="NSColor" red="0.99616652727127075" green="0.99217206239700317" blue="0.98877984285354614" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" size="17" name="AvenirNext-Regular"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
