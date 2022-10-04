@@ -59,59 +59,13 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUD-lk-aIl">
-                                <rect key="frame" x="75" y="501" width="264" height="67"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLy-3Z-HYT">
+                                <rect key="frame" x="185" y="750" width="45" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <gestureRecognizers/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Cairo">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="AvenirNext-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" title="+"/>
                                 <connections>
-                                    <action selector="didTapButtonOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rky-di-zNY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9n-P9-wuK">
-                                <rect key="frame" x="75" y="613" width="264" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Khartoum">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="AvenirNext-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapButtonTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6tt-Wu-BkH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mnw-vb-bx5">
-                                <rect key="frame" x="75" y="725" width="264" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Riyadh">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="AvenirNext-Regular"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="didTapButtonThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WaF-bE-Dof"/>
+                                    <segue destination="Tsy-Rr-3gy" kind="presentation" id="aWG-m5-kWb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -120,9 +74,6 @@
                     </view>
                     <connections>
                         <outlet property="backLabel" destination="WRM-eE-viM" id="FNn-g7-HLI"/>
-                        <outlet property="buttonOne" destination="nUD-lk-aIl" id="Kka-yw-eDV"/>
-                        <outlet property="buttonThree" destination="Mnw-vb-bx5" id="bxR-g6-RxJ"/>
-                        <outlet property="buttonTwo" destination="A9n-P9-wuK" id="cY4-N9-DAe"/>
                         <outlet property="card" destination="Ti3-MT-AB4" id="GUX-RN-JQJ"/>
                         <outlet property="frontLabel" destination="wpa-0Z-bhT" id="f7C-2a-emS"/>
                     </connections>
@@ -135,6 +86,69 @@
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="67.633928571428569"/>
+        </scene>
+        <!--Creation View Controller-->
+        <scene sceneID="vWK-kB-LKl">
+            <objects>
+                <viewController id="stE-LE-G91" customClass="CreationViewController" customModule="Flashcards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eHM-MR-UOq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Question" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rvx-uW-rwz">
+                                <rect key="frame" x="118" y="160" width="179" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Answer" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wes-5K-2tE">
+                                <rect key="frame" x="118" y="292" width="179" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mLD-k1-wPO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zGZ-X8-0dv">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="0y4-Z0-Dje">
+                            <connections>
+                                <action selector="didTapOnCancel:" destination="stE-LE-G91" id="z2X-D1-3ww"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="UMM-99-nql">
+                            <connections>
+                                <action selector="didTapOnDone:" destination="stE-LE-G91" id="vO6-g8-BnK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="answerTextField" destination="Wes-5K-2tE" id="v5C-At-MBe"/>
+                        <outlet property="questionTextField" destination="Rvx-uW-rwz" id="XfN-mr-2g7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LFB-84-a13" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1873.913043478261" y="67.633928571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nJU-S9-zrS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tsy-Rr-3gy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hvr-pM-ahy">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="stE-LE-G91" kind="relationship" relationship="rootViewController" id="06J-sB-cso"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EDy-us-O1Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="963.76811594202911" y="67.633928571428569"/>
         </scene>
     </scenes>
     <resources>

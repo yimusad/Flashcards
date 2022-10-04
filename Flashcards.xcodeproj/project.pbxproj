@@ -15,6 +15,7 @@
 		994F4B5C28D16EE00092CBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 994F4B5A28D16EE00092CBA1 /* LaunchScreen.storyboard */; };
 		994F4B6728D16EE00092CBA1 /* FlashcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F4B6628D16EE00092CBA1 /* FlashcardsTests.swift */; };
 		994F4B7128D16EE00092CBA1 /* FlashcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F4B7028D16EE00092CBA1 /* FlashcardsUITests.swift */; };
+		99664C8128EBDF16003BF1EC /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99664C8028EBDF16003BF1EC /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		994F4B6628D16EE00092CBA1 /* FlashcardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsTests.swift; sourceTree = "<group>"; };
 		994F4B6C28D16EE00092CBA1 /* FlashcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		994F4B7028D16EE00092CBA1 /* FlashcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsUITests.swift; sourceTree = "<group>"; };
+		99664C8028EBDF16003BF1EC /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		994F4B4328D16EDF0092CBA1 = {
 			isa = PBXGroup;
 			children = (
+				99664C8028EBDF16003BF1EC /* CreationViewController.swift */,
 				994F4B4E28D16EDF0092CBA1 /* Flashcards */,
 				994F4B6528D16EE00092CBA1 /* FlashcardsTests */,
 				994F4B6F28D16EE00092CBA1 /* FlashcardsUITests */,
@@ -258,6 +261,7 @@
 				994F4B5428D16EDF0092CBA1 /* ViewController.swift in Sources */,
 				994F4B5028D16EDF0092CBA1 /* AppDelegate.swift in Sources */,
 				994F4B5228D16EDF0092CBA1 /* SceneDelegate.swift in Sources */,
+				99664C8128EBDF16003BF1EC /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
