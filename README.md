@@ -31,10 +31,27 @@ CodePath Week 8, Lab 4: Flashcard App - User can see an app icon and a splashscr
 - [x] User should see all views properly layout when using the app on a phone of different sizes
 - [ ] Correct answer in multiple choice should be random
 
+## Lab 3
+
+### App Description
+CodePath Week 6, Lab 3: Flashcard App - User can browse through multiple flashcards as well as store, edit and delete them.
+
+### App Walk-through
+
+<img src="https://i.imgur.com/ltsPaQy.gif" width=200><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [x] User can delete a flashcard
+- [x] User can edit existing flashcard
+- [ ] User can store multiple choice questions
 ## Lab 2
 
 ### App Description
-CodePath Week 4, Lab 2: Flashcard App - Allow users create their own flashcard and edit existing flashcards 
+CodePath Week 4, Lab 2: Flashcard App - Allow users to create their own flashcard and edit existing flashcards. 
 
 ### App Walk-through
 
