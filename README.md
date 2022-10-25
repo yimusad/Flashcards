@@ -48,6 +48,7 @@ CodePath Week 6, Lab 3: Flashcard App - User can browse through multiple flashca
 - [x] User can delete a flashcard
 - [x] User can edit existing flashcard
 - [ ] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description
@@ -55,7 +56,7 @@ CodePath Week 4, Lab 2: Flashcard App - Allow users to create their own flashcar
 
 ### App Walk-through
 
-<img src="https://i.imgur.com/GT1DbzX.gif" width=200><br>
+<img src="https://i.imgur.com/tpZ4aGk.gif" width=200><br>
 
 ## Required
 - [x] User can open the creation screen
