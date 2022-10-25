@@ -30,3 +30,22 @@ CodePath Week 8, Lab 4: Flashcard App - User can see an app icon and a splashscr
 - [x] User should see a nicer flaschard with rounded corners, shadows, and animating when showing the first time
 - [x] User should see all views properly layout when using the app on a phone of different sizes
 - [ ] Correct answer in multiple choice should be random
+
+## Lab 2
+
+### App Description
+CodePath Week 4, Lab 2: Flashcard App - Allow users create their own flashcard and edit existing flashcards 
+
+### App Walk-through
+
+<img src="https://i.imgur.com/GT1DbzX.gif" width=200><br>
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can edit existing flashcard
+- [ ] User can add multiple choice answers in the creation screen
