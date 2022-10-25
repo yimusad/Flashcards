@@ -38,9 +38,11 @@ CodePath Week 6, Lab 3: Flashcard App - User can browse through multiple flashca
 
 ### App Walk-through
 
-<img src="https://i.imgur.com/ltsPaQy.gif" width=200><br>
+<img src="https://i.imgur.com/suxPfQP.gif" width=200><br>
+
 
 ## Required
+
 - [x] User can browse through multiple flashcards
 - [x] User can re-open the app and see previously created flashcards
 - [x] Push code to GitHub
