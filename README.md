@@ -15,7 +15,7 @@ CodePath Week 8, Lab 4: Flashcard App - User can see an app icon and a splashscr
 
 #### iPad Pro (9.7 inch)
 
-<img src="https://i.imgur.com/EAqVtNi.gif" width=200><br>
+<img src="https://i.imgur.com/7GVVVy9.gif" width=200><br>
 
 
 ## Required
